@@ -1,0 +1,182 @@
+
+
+.margen-especial{
+  margin-top: 100px ;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+  width: 100%;
+ 
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+
+
+#section3 > .container2 p {
+  font-size: 15px;
+  color: black;
+}
+
+span {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#section1 .container {
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.4rem rgb(159, 166, 174);
+}
+
+
+
+#section2 .container2 {
+  background-color: black;
+}
+
+.foto-clases img {
+ 
+  border-radius: 20px;
+ margin: 20px;
+ 
+}
+
+
+
+
+#tabla1 tr{
+
+  text-align: center;
+
+  
+}
+
+
+.table th{
+
+
+  text-align: center;
+  color: rgb(2, 58, 147);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+
+#section4 img {
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.english-class{
+
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+#section3 .container .foto-clases .container-img{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+#nombre_usuario{
+
+  background-color: white;
+}
+
+
+.decoracion {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  
+ 
+}
+
+.decoracion img {
+
+max-width: 50%;
+
+}
+
+
+.decoracion video {
+
+
+
+  max-width: 30%;
+  padding: 20px;
+
+}
+
+.english-class {
+  padding: 40px;
+  text-align: justify;
+ 
+}
+
+
+.temas{
+
+  padding: 20px;
+  margin-top: 15px;
+}
+
+
+.english-class video {
+ 
+  max-width: 50%;
+
+  
+
+}
+
+.temas span {
+ font-size: 50px;
+
+  
+}
+
+
+.margin {
+  margin-top: 5rem;
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor-video {
+  width: 100%;  /* O cualquier otro valor deseado */
+  max-width: 100%;  /* Esto asegura que el video no sea más ancho que su contenedor */
+  height: auto;  /* Esto mantendrá la proporción del video */
+  overflow: hidden;  /* Para asegurar que no haya desbordamiento */
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
